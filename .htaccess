@@ -1,0 +1,10 @@
+Vamos bloquear o acesso externo a qualquer arquivo que termine com .txt.
+
+We will block external access to any file that ends with .txt.
+
+# BLOQUEAR TODOS OS ARQUIVO .TXT #
+# BLOCK ALL .TXT FILES #
+<Files ~ "\.txt">
+Order allow,deny
+Deny from all
+</Files>
